@@ -1,3 +1,8 @@
+import logoImg from "./assets/images/king_telur_logo_1783782954859.jpg";
+import originalImg from "./assets/images/salted_egg_original_1783782970737.jpg";
+import smokedImg from "./assets/images/salted_egg_smoked_1783782988441.jpg";
+import storyImg from "./assets/images/king_telur_farm_1783783132854.jpg";
+
 export interface Product {
   id: string;
   badge: string;
@@ -23,10 +28,10 @@ export const BRAND_INFO = {
 };
 
 export const IMAGES = {
-  logo: "/src/assets/images/king_telur_logo_1783782954859.jpg",
-  original: "/src/assets/images/salted_egg_original_1783782970737.jpg",
-  smoked: "/src/assets/images/salted_egg_smoked_1783782988441.jpg",
-  story: "/src/assets/images/king_telur_farm_1783783132854.jpg",
+  logo: logoImg,
+  original: originalImg,
+  smoked: smokedImg,
+  story: storyImg,
 };
 
 export const BADGES = [
