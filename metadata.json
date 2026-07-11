@@ -1,0 +1,6 @@
+{
+  "name": "KING TELUR",
+  "description": "KING TELUR menghadirkan telur asin original dan telur asin asap berkualitas premium dari peternakan sendiri dengan proses higienis dan cita rasa autentik khas Sampang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
