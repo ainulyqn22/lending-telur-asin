@@ -63,6 +63,11 @@ export function Products() {
                   <img
                     src={product.image}
                     alt={product.title}
+                    title={`${product.title} - KING TELUR`}
+                    loading="lazy"
+                    decoding="async"
+                    width="400"
+                    height="300"
                     className="w-[85%] h-[85%] object-contain select-none transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
@@ -221,6 +226,11 @@ export function Products() {
                 <img
                   src={selectedProduct.image}
                   alt={selectedProduct.title}
+                  title={`${selectedProduct.title} Detail Spesifikasi`}
+                  loading="lazy"
+                  decoding="async"
+                  width="480"
+                  height="300"
                   className="w-[70%] h-[70%] object-contain"
                   referrerPolicy="no-referrer"
                 />

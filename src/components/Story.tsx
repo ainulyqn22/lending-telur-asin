@@ -52,6 +52,11 @@ export function Story() {
                 <img
                   src={IMAGES.story}
                   alt="Peternakan Bebek King Telur"
+                  title="Peternakan Bebek Mandiri King Telur Sampang"
+                  loading="lazy"
+                  decoding="async"
+                  width="400"
+                  height="500"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
                 />

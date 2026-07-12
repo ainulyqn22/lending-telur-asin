@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 import { MapPin, Phone, MessageSquare, ArrowUpRight, Egg } from "lucide-react";
 import { BRAND_INFO, IMAGES } from "../data";
 
@@ -58,34 +59,40 @@ export function Footer() {
           </h4>
           <ul className="flex flex-col gap-3.5 font-sans text-xs sm:text-sm font-light text-white/75">
             <li>
-              <a href="#" onClick={handleScrollToTop} className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
+              <Link to="/" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
                 Beranda
                 <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#tentang" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
+              <Link to="/tentang" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
                 Tentang Kami
                 <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#produk" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
+              <Link to="/produk" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
                 Varian Produk
                 <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#keunggulan" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
-                Keunggulan
+              <Link to="/faq" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
+                FAQ / Tanya Jawab
                 <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#layanan" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
-                Kemitraan
+              <Link to="/blog" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
+                Artikel & Blog
                 <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-              </a>
+              </Link>
+            </li>
+            <li>
+              <Link to="/kontak" className="hover:text-[#F59E0B] transition-colors flex items-center gap-1.5 group">
+                Hubungi Kontak
+                <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+              </Link>
             </li>
           </ul>
         </div>
